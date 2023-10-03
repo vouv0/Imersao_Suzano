@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Pixelify Sans', cursive;
+    background: url(/imagem/background_foto.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    
+}
+
+#backgroundCard{
+    background-color: rgba(79, 79, 125, 0.674);
+    padding: 10px 50px;
+    border-radius: 30px;
+
+
+}
+
+#mainCard{
+    background-color: black;
+    border-radius: 10px;
+    
+    
+}
